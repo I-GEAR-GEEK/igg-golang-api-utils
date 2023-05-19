@@ -2,7 +2,7 @@
 
 ## Install
 ```command
-go get github.com/igeargeek/igg-golang-api-utils
+go get github.com/I-GEAR-GEEK/igg-golang-api-utils/utils
 ```
 
 ## How to use
@@ -10,7 +10,7 @@ go get github.com/igeargeek/igg-golang-api-utils
 ```golang
 package controllers
 
-import "github.com/igeargeek/igg-golang-api-utils/utils"
+import "github.com/I-GEAR-GEEK/igg-golang-api-utils/utils/utils"
 
 ## Pagination
 type ExampleController struct {
@@ -58,7 +58,7 @@ package validators
 
 import (
 	"github.com/gofiber/fiber/v2"
-  "github.com/igeargeek/igg-golang-api-utils/utils"
+  "github.com/I-GEAR-GEEK/igg-golang-api-utils/utils/utils"
 )
 
 type ExampleCreate struct {
