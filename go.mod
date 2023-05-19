@@ -1,4 +1,4 @@
-module github.com/igeargeek/igg-golang-api-utils
+module github.com/I-GEAR-GEEK/igg-golang-api-utils
 
 go 1.19
 
