@@ -63,7 +63,6 @@ func (p *Pagination) GetPagination(c *fiber.Ctx, allowOrderField []string) (*Res
 		}
 		orderDirection = c.Query("order_direction")
 	}
-
 	data := &RespPagination{
 		Page:           page,
 		PerPage:        perPage,
