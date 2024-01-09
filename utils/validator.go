@@ -3,6 +3,9 @@ package utils
 import (
 	"fmt"
 	"image"
+	_ "image/gif"
+	_ "image/jpeg"
+	_ "image/png"
 	"mime/multipart"
 	"path/filepath"
 	"strings"
